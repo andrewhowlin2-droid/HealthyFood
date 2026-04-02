@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healthy Bites | Contact</title>
+  <meta name="description" content="Contact Healthy Bites and share your healthy eating goals.">
+  <meta name="keywords" content="healthy food, contact, nutrition, meal plan">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Healthy Bites</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="tips.html">Nutrition Tips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <h2>Contact Us</h2>
+      <p>Fill out the form below to share your healthy eating goals.</p>
+    </section>
+
+    <section class="form-section">
+      <form id="contactForm">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age">
+
+        <label for="goal">Health Goal</label>
+        <select id="goal" name="goal">
+          <option value="">Select a goal</option>
+          <option value="Weight Loss">Weight Loss</option>
+          <option value="Muscle Gain">Muscle Gain</option>
+          <option value="Healthy Lifestyle">Healthy Lifestyle</option>
+          <option value="More Energy">More Energy</option>
+        </select>
+
+        <label for="food">Favorite Healthy Food</label>
+        <input type="text" id="food" name="food">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+
+      <p id="formMessage"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Healthy Bites. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
